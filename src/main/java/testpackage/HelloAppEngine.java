@@ -25,9 +25,9 @@ public class HelloAppEngine extends HttpServlet {
   }
 
   public static String getInfo() {
-    return "Version: " + System.getProperty("java.version")
+    return "VERSION: " + System.getProperty("java.version")
           + " OS: " + System.getProperty("os.name")
-          + " User: " + System.getProperty("user.name");
+          + " USER: " + System.getProperty("user.name");
   }
 
 }
